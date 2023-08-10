@@ -12,7 +12,6 @@ import os
 import os.path as osp
 import json
 
-from sac.mmd import mmd
 from sac.replay_memory import ReplayMemory
 from sac.sac import SAC
 from sac.model import GaussianPolicy
