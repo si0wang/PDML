@@ -3,11 +3,8 @@ Code of ICML 2023 paper: "Live in the Moment: Learning Dynamics Model Adapted to
 
 ## Usage
 
-MBPO
-> CUDA_VISIBLE_DEVICES=0 python main_pmac.py --env_name 'Humanoid-v2' --num_epoch 400 --exp_name humanoid_mbpo --seed 6
-
 PDML-MBPO
-> CUDA_VISIBLE_DEVICES=0 python main_pmac_tvd.py --env_name 'Humanoid-v2' --num_epoch 400 --exp_name humanoid_pdml --seed 4 --reweight_model TV --reweight_rollout TV
+> CUDA_VISIBLE_DEVICES=0 python main_pdml.py --env_name 'Humanoid-v2' --num_epoch 400 --exp_name humanoid_pdml --seed 4 --reweight_model TV --reweight_rollout TV
 
 
 ## code structure
